@@ -1,0 +1,26 @@
+{
+  "name": "codex.js",
+  "version": "1.0.0",
+  "description": "npm package for retrieving Cantus songs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "get-data": "node scripts/get-data.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theking465/codex.js"
+  },
+  "keywords": [
+    "cantus",
+    "codex",
+    "api"
+  ],
+  "author": "theking465",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "xml2js": "^0.4.23"
+  }
+}
